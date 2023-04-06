@@ -1,0 +1,10 @@
+.container {
+    max-width: 800px; /* default size for smaller screens */
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1000px; /* larger size for screens wider than 1200px */
+    }
+  }
+  
